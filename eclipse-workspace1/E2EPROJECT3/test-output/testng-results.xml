@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42407" started-at="2020-02-15T14:14:55 EST" finished-at="2020-02-15T14:15:37 EST">
+    <groups>
+    </groups>
+    <test name="validateTitle" duration-ms="10638" started-at="2020-02-15T14:14:55 EST" finished-at="2020-02-15T14:15:06 EST">
+      <class name="Qaclickacademy_test.ValidateTitleTest">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Qaclickacademy_test.ValidateTitleTest@4d50efb8]" name="Initialize" is-config="true" duration-ms="10361" started-at="2020-02-15T14:14:55 EST" finished-at="2020-02-15T14:15:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="ValidateTitleTest()[pri:0, instance:Qaclickacademy_test.ValidateTitleTest@4d50efb8]" name="ValidateTitleTest" duration-ms="63" started-at="2020-02-15T14:15:05 EST" finished-at="2020-02-15T14:15:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Qaclickacademy_test.ValidateTitleTest@4d50efb8]" name="teardown" is-config="true" duration-ms="157" started-at="2020-02-15T14:15:05 EST" finished-at="2020-02-15T14:15:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Qaclickacademy_test.ValidateTitleTest -->
+    </test> <!-- validateTitle -->
+    <test name="loginTest" duration-ms="21866" started-at="2020-02-15T14:15:06 EST" finished-at="2020-02-15T14:15:28 EST">
+      <class name="Qaclickacademy_test.HomePage">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Qaclickacademy_test.HomePage@670b40af]" name="intialize" is-config="true" duration-ms="9320" started-at="2020-02-15T14:15:06 EST" finished-at="2020-02-15T14:15:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Qaclickacademy_test.HomePage@670b40af]" name="basepageNavigation" duration-ms="4884" started-at="2020-02-15T14:15:15 EST" data-provider="get" finished-at="2020-02-15T14:15:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krish1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Qaclickacademy_test.HomePage@670b40af]" name="basepageNavigation" duration-ms="3661" started-at="2020-02-15T14:15:20 EST" data-provider="get" finished-at="2020-02-15T14:15:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krish2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Qaclickacademy_test.HomePage@670b40af]" name="basepageNavigation" duration-ms="3858" started-at="2020-02-15T14:15:24 EST" data-provider="get" finished-at="2020-02-15T14:15:27 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krish3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[489]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Qaclickacademy_test.HomePage@670b40af]" name="Teardown" is-config="true" duration-ms="131" started-at="2020-02-15T14:15:27 EST" finished-at="2020-02-15T14:15:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Qaclickacademy_test.HomePage -->
+    </test> <!-- loginTest -->
+    <test name="validate" duration-ms="9802" started-at="2020-02-15T14:15:28 EST" finished-at="2020-02-15T14:15:37 EST">
+      <class name="Qaclickacademy_test.ValidateTest">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Qaclickacademy_test.ValidateTest@371a67ec]" name="Initialize" is-config="true" duration-ms="9396" started-at="2020-02-15T14:15:28 EST" finished-at="2020-02-15T14:15:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="basepageNavigation()[pri:0, instance:Qaclickacademy_test.ValidateTest@371a67ec]" name="basepageNavigation" duration-ms="214" started-at="2020-02-15T14:15:37 EST" finished-at="2020-02-15T14:15:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Qaclickacademy_test.ValidateTest@371a67ec]" name="teardown" is-config="true" duration-ms="191" started-at="2020-02-15T14:15:37 EST" finished-at="2020-02-15T14:15:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Qaclickacademy_test.ValidateTest -->
+    </test> <!-- validate -->
+  </suite> <!-- Suite -->
+</testng-results>
