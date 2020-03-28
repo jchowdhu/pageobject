@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <parameter name="username" value="jishu"/>
+  <parameter name="password" value="123"/>
+  <groups>
+  <run>
+  <exclude name="test2"/>
+  <exclude name="test3"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="Facebook.WindowHandle"/>
+      <class name="Facebook.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

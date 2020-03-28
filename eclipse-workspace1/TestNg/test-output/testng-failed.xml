@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="2" name="Test(failed)" parallel="methods">
+    <parameter name="password" value="123"/>
+    <parameter name="username" value="jishu"/>
+    <classes>
+      <class name="Facebook.Login">
+        <methods>
+          <include name="verifyImagetest"/>
+          <include name="teardown"/>
+          <include name="UsernameAndPasswordTest" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- Facebook.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
